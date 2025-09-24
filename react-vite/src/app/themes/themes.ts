@@ -13,7 +13,8 @@ const themes = {
     shadowActiveButton: "rgba(11, 0, 46, 0.25)",
     hoverBgButtons: "#c23a46",
     colorButtons: "white",
-    linksColor: "rgba(11, 0, 46, 0.64)"
+    linksColor: "rgba(11, 0, 46, 0.64)",
+    fontFamily: "'Poppins', sans-serif",
   },
 }
 

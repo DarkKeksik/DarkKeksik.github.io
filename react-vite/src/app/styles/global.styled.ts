@@ -1,11 +1,11 @@
-import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset'
+import { createGlobalStyle } from "styled-components"
+import reset from "styled-reset"
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
 
     html {
-        font-family: 'Poppins', sans-serif;
+        font-family: ${({ theme }) => theme.main && theme.main.fontFamily};
     }
     a {
         text-decoration: none;
