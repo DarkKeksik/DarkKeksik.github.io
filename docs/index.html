@@ -1,127 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=VT323&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./style-icons-fonts.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style-icons-fonts.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Test task | simple example</title>
     <script defer src="script.js"></script>
-</head>
+  </head>
 
-<body>
-    <Header class="header">
-        <Nav class="menu-main"></Nav>
-        <div class="menu-side"></div>
-    </Header>
+  <body>
+    <header class="header">
+      <nav class="menu-main"></nav>
+      <div class="menu-side"></div>
+    </header>
 
-    <Main class="main">
-        <section class="content-section content-section_inverted p-20">
-            <button id="btn-modal-open" class="btn btn_red">Open modal</button>
-        </section>
-        <section class="content-section">Another content</section>
-        <section class="content-section content-section_inverted">Some content</section>
-    </Main>
+    <main class="main">
+      <section class="content-section content-section_inverted p-20">
+        <button id="btn-modal-open" class="btn btn_red">Open modal</button>
+      </section>
+      <section class="content-section">Another content</section>
+      <section class="content-section content-section_inverted">
+        Some content
+      </section>
+    </main>
 
     <div
-        class="modal display-none"
-        role="dialog"
-        aria-modal="false"
-        id="modal_funding"
+      class="modal display-none"
+      role="dialog"
+      aria-modal="false"
+      id="modal_funding"
     >
-        <div id="modal_bg_funding" class="modal__background"></div>
-        <div class="h-w-100 flex-center-center p-20">
-            <article class="modal__content">
-                <h2 class="modal__title">Get the Business Funding You Need</h2>
+      <div id="modal_bg_funding" class="modal__background"></div>
+      <div class="h-w-100 flex-center-center p-20">
+        <article class="modal__content">
+          <h2 class="modal__title">Get the Business Funding You Need</h2>
 
-                <div class="modal__description">
-                    <div class="modal__description-item">
-                        <p class="modal__text">
-                            Expand your business with a&nbsp;flexible
-                            loan tailored to&nbsp;your needs.
-                            Whether you&rsquo;re investing in&nbsp;new equipment,
-                            increasing inventory, or&nbsp;boosting cash flow,
-                            we&nbsp;offer quick approvals and competitive rates
-                            to&nbsp;keep your business growing.
-                        </p>
-                    </div>
+          <div class="modal__description">
+            <div class="modal__description-item">
+              <p class="modal__text">
+                Expand your business with a&nbsp;flexible loan tailored
+                to&nbsp;your needs. Whether you&rsquo;re investing in&nbsp;new
+                equipment, increasing inventory, or&nbsp;boosting cash flow,
+                we&nbsp;offer quick approvals and competitive rates to&nbsp;keep
+                your business growing.
+              </p>
+            </div>
 
-                    <div class="modal__description-item">
-                        <div class="text-with-icon">
-                             <div class="
-                                text-with-icon__item
-                                text-with-icon__item_fast
-                            ">
-                                <span class="
-                                    text-with-icon__icon
-                                    icon-check-mark
-                                "></span>
-                                <span class="text-with-icon__text">
-                                    Fast approval process
-                                </span>
-                             </div>
-                        </div>
-
-                         <div class="text-with-icon">
-                            <div class="
-                                text-with-icon__item
-                                text-with-icon__item_flexible
-                            ">
-                                <span class="
-                                    text-with-icon__icon
-                                    icon-check-mark
-                                "></span>
-                                <span class="text-with-icon__text">
-                                    Flexible repayment terms
-                                </span>
-                             </div>
-                        </div>
-
-                        <div class="text-with-icon">
-                             <div class="
-                                text-with-icon__item
-                                text-with-icon__item_competitive
-                            ">
-                                <span class="
-                                    text-with-icon__icon
-                                    icon-check-mark
-                                "></span>
-                                <span class="text-with-icon__text">
-                                    Competitive interest rates
-                                </span>
-                             </div>
-                        </div>                        
-                    </div>
+            <div class="modal__description-item">
+              <div class="text-with-icon">
+                <div class="text-with-icon__item text-with-icon__item_fast">
+                  <span class="text-with-icon__icon icon-check-mark"></span>
+                  <span class="text-with-icon__text">
+                    Fast approval process
+                  </span>
                 </div>
+              </div>
 
-                <div class="modal__panel">
-                    <button
-                        id="btn-modal-apply"
-                        class="btn btn_red"
-                    >Apply now</button>
-
-                    <a class="link link_uppercase"
-                        href="https://finom.co/"
-                        target="_blank"
-                    >More information</a>
+              <div class="text-with-icon">
+                <div class="text-with-icon__item text-with-icon__item_flexible">
+                  <span class="text-with-icon__icon icon-check-mark"></span>
+                  <span class="text-with-icon__text">
+                    Flexible repayment terms
+                  </span>
                 </div>
+              </div>
 
-                <button
-                    id="btn-modal-close"
-                    class="modal__btn-close icon-close"
-                    aria-label="Close modal"
-                ></button>
+              <div class="text-with-icon">
+                <div class="text-with-icon__item">
+                  <span class="text-with-icon__icon icon-check-mark"></span>
+                  <span class="text-with-icon__text">
+                    Competitive interest rates
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            </article>
-        </div>
+          <div class="modal__panel">
+            <button id="btn-modal-apply" class="btn btn_red">Apply now</button>
+
+            <a
+              class="link link_uppercase"
+              href="https://finom.co/"
+              target="_blank"
+              >More information</a
+            >
+          </div>
+
+          <button
+            id="btn-modal-close"
+            class="modal__btn-close icon-close"
+            aria-label="Close modal"
+          ></button>
+        </article>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

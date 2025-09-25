@@ -173,7 +173,6 @@
 }
 
 .modal__text {
-  max-height: 205px;
   overflow: auto;
 }
 
