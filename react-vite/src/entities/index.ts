@@ -1,1 +1,1 @@
-export { default as InfoblockWelcome } from "./InfoblockWelcome/InfoblockWelcome"
+export { default as FormFunding } from "./FormFunding/FormFunding"

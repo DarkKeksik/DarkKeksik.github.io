@@ -4,6 +4,10 @@ type TContentSection = {
   isInverted?: boolean
 }
 
+export const Wrap = styled.div`
+  font-family: ${({ theme }) => theme.main && theme.main.fontFamily};
+`
+
 export const ContentSection = styled.section<TContentSection>`
   display: flex;
   flex-direction: column;
