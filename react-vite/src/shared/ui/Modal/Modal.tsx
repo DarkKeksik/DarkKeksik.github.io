@@ -1,6 +1,6 @@
 import type { FC, PropsWithChildren } from "react"
 
-import { Button } from "../"
+import { Button, Link } from "../"
 import * as Styled from "./Modal.styled"
 
 type TModal = PropsWithChildren<{ onClose: () => void; isVisible: boolean; title?: string }>
@@ -16,6 +16,12 @@ const Modal: FC<TModal> = ({ onClose, isVisible = false, children, title }) => {
           {children}
           <Styled.Panel>
             <Button onClickButton={onClose} text="Apply now" />
+            <Link
+              isUppercase={true}
+              targer="_blank"
+              text="More information"
+              link="https://finom.co/"
+            />
           </Styled.Panel>
         </Styled.Content>
       </div>
